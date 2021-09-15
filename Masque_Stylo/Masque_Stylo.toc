@@ -1,0 +1,9 @@
+## Interface: 30300
+## Title: Masque |cffff8000Stylo|r
+## Version: v7.2.0
+## Notes: Stylo Designs for Masque
+## Author: Stylo
+## X-Credits: Creators of Masque and Opaque for asking for a Masque version of Stylo
+## Dependencies: Masque
+
+Stylo.lua

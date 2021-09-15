@@ -1,0 +1,28 @@
+## Interface: 30300
+
+## Title: Masque: LiteStep
+## Notes: LiteStep skins for Masque.
+## Notes-deDE: LiteStep-Skin für Masque.
+## Notes-esMX: Skins LiteStep para Masque.
+## Notes-esES: Skins LiteStep para Masque.
+## Notes-frFR: Skins de LiteStep pour Masque.
+## Notes-itIT: Skins LiteStep per Masque.
+## Notes-ruRU: Скин LiteStep для Masque.
+## Notes-zhTW: Masque的LiteStep皮膚。
+
+## Version: 9.1.0
+## Author: StormFX
+## Dependencies: Masque
+
+## X-Website: https://github.com/SFX-WoW/Masque_LiteStep
+## X-Category: Interface Enhancements
+## X-Credits: Saynt
+## X-Curse-Project-ID: 13599
+## X-Wago-ID: Qb6mj7KP
+## X-WoWI-ID: 8882
+
+# Locales
+Locales.lua
+
+# Skins
+Skins.lua
