@@ -21,7 +21,7 @@
 * Load-on-demand settings panel
 * Global, per-add-on and per-group settings
 * Skin, Color, Gloss and Shadow options
-* Full profile support, including per-spec profiles (Retail only)
+* Full profile support, including per-spec profiles.
 
 ## Requirements
 
