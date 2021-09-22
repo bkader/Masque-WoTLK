@@ -11,7 +11,7 @@
 ## Notes-zhTW: Masque的Apathy皮膚。
 
 ## Version: 9.1.0
-## Author: StormFX
+## Author: StormFX (Kader Backport)
 ## Dependencies: Masque
 
 ## X-Website: https://github.com/SFX-WoW/Masque_Apathy

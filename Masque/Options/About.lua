@@ -4,7 +4,7 @@
 	suggestions and license information, please visit https://github.com/SFX-WoW/Masque.
 
 	* File...: Options\About.lua
-	* Author.: StormFX
+	* Author.: StormFX, Kader
 
 	'About Masque' Group/Panel
 
@@ -36,7 +36,8 @@ function Setup.About(self)
 	-- @ Masque
 	local CRLF = Core.CRLF
 
-	local Desc = L["Masque is a skinning engine for button-based add-ons."] .. " " .. L["You must have an add-on that supports Masque installed to use it."] .. " " .. L["For more information, please visit one of the sites listed below."] .. CRLF
+	local Desc =
+		L["Masque is a skinning engine for button-based add-ons."] .. " " .. L["You must have an add-on that supports Masque installed to use it."] .. " " .. L["For more information, please visit one of the sites listed below."] .. CRLF
 
 	local Options = {
 		type = "group",

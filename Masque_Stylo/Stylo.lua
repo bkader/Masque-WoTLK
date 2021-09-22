@@ -1,9 +1,6 @@
 --[[ Stylo ]] --
-
 local MSQ = LibStub("Masque", true)
-if not MSQ then
-	return
-end
+if not MSQ then return end
 
 -- Stylo: Death Knight
 MSQ:AddSkin("Stylo: Red", {

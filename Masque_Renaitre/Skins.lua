@@ -1,8 +1,6 @@
 --[[ Renaitre skin suite for 5.4.7 ]]
 local MSQ = LibStub("Masque", true)
-if not MSQ then
-	return
-end
+if not MSQ then return end
 
 -- Renaitre: Beveled
 MSQ:AddSkin("Renaitre: Beveled", {

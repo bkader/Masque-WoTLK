@@ -4,7 +4,7 @@
 	suggestions and license information, please visit https://github.com/SFX-WoW/Masque.
 
 	* File...: Core\Button.lua
-	* Author.: StormFX, JJSheets
+	* Author.: StormFX, JJSheets, Kader
 
 	Button-Skinning API
 
@@ -75,11 +75,11 @@ function Core.SkinButton(Button, Regions, SkinID, Backdrop, Shadow, Gloss, Color
 	local xScale, yScale = GetScale(Button)
 
 	-- Mask
-	local Mask = Skin.Mask
+	-- local Mask = Skin.Mask
 
-	if Mask then
-		SkinMask(nil, Button, Mask, xScale, yScale)
-	end
+	-- if Mask then
+	-- 	SkinMask(nil, Button, Mask, xScale, yScale)
+	-- end
 
 	-- Backdrop
 	local FloatingBG = Button.FloatingBG or Regions.Backdrop

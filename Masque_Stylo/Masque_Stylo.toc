@@ -2,7 +2,7 @@
 ## Title: Masque |cffff8000Stylo|r
 ## Version: v7.2.0
 ## Notes: Stylo Designs for Masque
-## Author: Stylo
+## Author: Stylo (Kader Backport)
 ## X-Credits: Creators of Masque and Opaque for asking for a Masque version of Stylo
 ## Dependencies: Masque
 

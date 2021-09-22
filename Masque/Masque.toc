@@ -19,9 +19,6 @@
 ## X-Wago-ID: kRNLgpGo
 ## X-WoWI-ID: 12097
 
-# Compatibility
-Compat.lua
-
 # Libraries
 Libs\Libs.xml
 Libs\LibDualSpec-1.0\LibDualSpec-1.0.lua

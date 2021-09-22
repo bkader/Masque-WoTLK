@@ -4,7 +4,7 @@
 	suggestions and license information, please visit https://github.com/SFX-WoW/Masque.
 
 	* File...: Core\Callback.lua
-	* Author.: StormFX, JJSheets
+	* Author.: StormFX, JJSheets, Kader
 
 	Callback API
 

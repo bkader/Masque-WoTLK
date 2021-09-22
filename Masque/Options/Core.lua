@@ -4,7 +4,7 @@
 	suggestions and license information, please visit https://github.com/SFX-WoW/Masque.
 
 	* File...: Options/Core.lua
-	* Author.: StormFX
+	* Author.: StormFX, Kader
 
 	Core Options Group/Panel
 
@@ -40,12 +40,14 @@ Core.CRLF = CRLF
 -- Options Loader
 local Setup = {}
 
-Core.Setup = setmetatable(Setup, {__call = function(self, Name, ...)
-	local func = Name and self[Name]
-	if func then
-		func(Core, ...)
+Core.Setup = setmetatable(Setup, {
+	__call = function(self, Name, ...)
+		local func = Name and self[Name]
+		if func then
+			func(Core, ...)
+		end
 	end
-end})
+})
 
 -- Sets up the root options group/panel.
 function Setup.Core(self)

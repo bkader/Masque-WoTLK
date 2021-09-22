@@ -4,7 +4,7 @@
 	suggestions and license information, please visit https://github.com/SFX-WoW/Masque.
 
 	* File...: Core\Regions\Frame.lua
-	* Author.: StormFX
+	* Author.: StormFX, Kader
 
 	Frame Regions
 
@@ -166,10 +166,8 @@ end
 -- Updates the pulse effects on a button's cooldowns.
 function Core.SetPulse(Button, Pulse)
 	-- local Regions = Button.__Regions
-
 	-- local Cooldown = Regions and Regions.Cooldown
 	-- local ChargeCooldown = Regions and Regions.ChargeCooldown
-
 	-- if Cooldown then
 	-- 	Cooldown:SetDrawBling(Pulse)
 	-- end

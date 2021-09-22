@@ -4,7 +4,7 @@
 	suggestions and license information, please visit https://github.com/SFX-WoW/Masque.
 
 	* File...: Options\General.lua
-	* Author.: StormFX
+	* Author.: StormFX, Kader
 
 	'General Settings' Group/Panel
 
@@ -204,8 +204,7 @@ function Setup.General(self)
 	}
 
 	self.Options.args.General = Options
-	self.ProfilesPanel =
-		LibStub("AceConfigDialog-3.0"):AddToBlizOptions(MASQUE, L["General Settings"], MASQUE, "General")
+	self.ProfilesPanel = LibStub("AceConfigDialog-3.0"):AddToBlizOptions(MASQUE, L["General Settings"], MASQUE, "General")
 
 	-- GC
 	Setup.General = nil

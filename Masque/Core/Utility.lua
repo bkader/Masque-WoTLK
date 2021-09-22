@@ -1,14 +1,3 @@
---[[
-
-	This file is part of 'Masque', an add-on for World of Warcraft. For bug reports,
-	suggestions and license information, please visit https://github.com/SFX-WoW/Masque.
-
-	* File...: Core\Utility.lua
-	* Author.: StormFX
-
-	Utility Functions
-
-]]
 local _, Core = ...
 
 ----------------------------------------
@@ -109,3 +98,39 @@ function Core.GetTexCoords(Coords)
 		return 0, 1, 0, 1
 	end
 end
+
+----------------------------------------
+-- MaskTexture
+---
+
+-- function Core.CreateMaskTexture(obj, name, layer, inheritsFrom, subLayer)
+-- 	local t = obj:CreateTexture(name, layer, inheritsFrom, subLayer)
+-- 	obj.MaskTextures = obj.MaskTextures or {}
+-- 	obj.MaskTextures[t] = true
+-- 	return t
+-- end
+
+-- -- SetPortraitToTexture
+-- function Core.AddMaskTexture(Region, MaskTexture)
+-- 	local Parent = Region.GetParent and Region:GetParent()
+-- 	if Parent and Parent.MaskTextures then
+-- 		if Parent.__MSQ_Icon and Parent.__MSQ_Icon == Region then
+-- 			local Texture = Parent.__MSQ_Icon:GetTexture()
+-- 			-- print("YES!", Texture)
+-- 		end
+-- 	end
+-- end
+
+-- function Core.RemoveMaskTexture(obj, MaskTexture)
+-- 	if obj and obj.MaskTextures and obj.MaskTextures[MaskTexture] then
+-- 		MaskTexture:Hide()
+-- 		MaskTexture = nil
+-- 	end
+-- end
+
+-- function Core.SetMask(obj, texture)
+-- 	-- if obj and obj.MaskTexture and texture then
+-- 	-- 	obj.MaskTexture:SetTexture(texture)
+-- 	-- 	obj.MaskTexture:SetBlendMode("BLEND")
+-- 	-- end
+-- end

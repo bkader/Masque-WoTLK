@@ -4,7 +4,7 @@
 	suggestions and license information, please visit https://github.com/SFX-WoW/Masque.
 
 	* File...: Options\Info.lua
-	* Author.: StormFX
+	* Author.: StormFX, Kader
 
 	'Installed Skins' Group/Panel
 

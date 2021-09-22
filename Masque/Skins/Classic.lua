@@ -29,7 +29,7 @@ Core.AddSkin("Classic", {
 	-- Info
 	Description = L["An improved version of the game's default button style."],
 	-- Version = Default.Version,
-	Authors = {"StormFX", "|cff999999Maul|r", "|cff999999Blizzard Entertainment|r"},
+	Authors = {"|cfff58cbaKader|r", "StormFX", "|cff999999Maul|r", "|cff999999Blizzard Entertainment|r"},
 	Websites = Core.Websites,
 	-- Skin
 	-- Mask = Default.Mask,

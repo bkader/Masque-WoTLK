@@ -4,7 +4,7 @@
 	suggestions and license information, please visit https://github.com/SFX-WoW/Masque.
 
 	* File...: Core\Groups.lua
-	* Author.: StormFX, JJSheets
+	* Author.: StormFX, JJSheets, Kader
 
 	Group Setup
 

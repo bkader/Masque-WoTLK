@@ -1,7 +1,7 @@
 ## Interface: 30300
 ## Title: Masque: Qhil
 ## Version: 1.3.0
-## Author: qhil
+## Author: Qhil (Kader Backport)
 ## Notes: Qhil skin for Masque.
 ## Notes-deDE: Qhil-Skin für Masque.
 ## Notes-esES: Skin Qhil para Masque.

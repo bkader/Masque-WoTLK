@@ -39,9 +39,7 @@ function Setup.LDB(self)
 				end
 			end,
 			OnTooltipShow = function(Tip)
-				if not Tip or not Tip.AddLine then
-					return
-				end
+				if not Tip or not Tip.AddLine then return end
 				Tip:AddLine(MASQUE)
 				Tip:AddLine(L["Click to open Masque's settings."], 1, 1, 1)
 			end

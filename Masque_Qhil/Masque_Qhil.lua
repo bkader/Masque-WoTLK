@@ -1,5 +1,7 @@
 local MSQ = LibStub("Masque", true)
-if not MSQ then return end
+if not MSQ then
+return
+end
 
 MSQ:AddSkin("Qhil", {
 	Author = "qhil",
@@ -112,7 +114,7 @@ MSQ:AddSkin("Qhil", {
 }, true)
 
 MSQ:AddSkin("Qhil - Plain Backdrop", {
-		Description = "A pretty simple and clean skin. It comes with a 1 pixel border, no shadows and a plain backdrop.",
+	Description = "A pretty simple and clean skin. It comes with a 1 pixel border, no shadows and a plain backdrop.",
 	Template = "Qhil",
 	Backdrop = {
 		Width = 36,

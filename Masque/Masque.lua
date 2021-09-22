@@ -54,17 +54,13 @@ do
 	-- Core Info
 	Core.Version = GetAddOnMetadata(MASQUE, "Version")
 	Core.Authors = {
-		"StormFX",
-		"|cff999999JJSheets|r",
 		"|cfff58cbaKader|r",
+		"StormFX",
+		"|cff999999JJSheets|r"
 	}
 	Core.Websites = {
-		"https://github.com/bkader/Masque-WoTLK",
-		"https://github.com/SFX-WoW/Masque",
-		"https://www.curseforge.com/wow/addons/masque",
-		"https://addons.wago.io/addons/masque",
-		"https://www.wowace.com/projects/masque",
-		"https://www.wowinterface.com/downloads/info12097",
+		"https://discord.gg/a8z5CyS3eW",
+		"https://github.com/bkader/Masque-WoTLK"
 	}
 end
 

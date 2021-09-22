@@ -4,7 +4,7 @@
 	suggestions and license information, please visit https://github.com/SFX-WoW/Masque.
 
 	* File...: Core\Regions\Mask.lua
-	* Author.: StormFX
+	* Author.: StormFX, Kader
 
 	Button/Region Mask
 
@@ -22,7 +22,12 @@ local type = type
 ---
 
 -- @ Core\Utility
-local GetSize, SetPoints = Core.GetSize, Core.SetPoints
+-- local GetSize = Core.GetSize
+-- local SetPoints = Core.SetPoints
+-- local CreateMaskTexture = Core.CreateMaskTexture
+-- local AddMaskTexture = Core.AddMaskTexture
+-- local RemoveMaskTexture = Core.RemoveMaskTexture
+-- local SetMask = Core.SetMask
 
 ----------------------------------------
 -- Core
@@ -30,21 +35,21 @@ local GetSize, SetPoints = Core.GetSize, Core.SetPoints
 
 -- Skins a button or region mask.
 function Core.SkinMask(Region, Button, Skin, xScale, yScale)
+	return -- Sorry, until i find a solution
 	-- local ButtonMask = Button.__MSQ_Mask
 
 	-- -- Region
 	-- if Region then
-	-- 	-- Button
 	-- 	local SkinMask = Skin.Mask
 
 	-- 	-- Button Mask
 	-- 	if Skin.UseMask and ButtonMask and not SkinMask then
 	-- 		if not Region.__MSQ_ButtonMask then
-	-- 			Region:AddMaskTexture(ButtonMask)
+	-- 			AddMaskTexture(Region, ButtonMask, Skin.DrawLayer, Skin.DrawLevel)
 	-- 			Region.__MSQ_ButtonMask = true
 	-- 		end
 	-- 	elseif Region.__MSQ_ButtonMask then
-	-- 		Region:RemoveMaskTexture(ButtonMask)
+	-- 		RemoveMaskTexture(Region, ButtonMask)
 	-- 		Region.__MSQ_ButtonMask = nil
 	-- 	end
 
@@ -53,7 +58,7 @@ function Core.SkinMask(Region, Button, Skin, xScale, yScale)
 
 	-- 	if SkinMask then
 	-- 		if not RegionMask then
-	-- 			RegionMask = Button:CreateMaskTexture()
+	-- 			RegionMask = CreateMaskTexture(Button)
 	-- 			Region.__MSQ_Mask = RegionMask
 	-- 		end
 
@@ -67,15 +72,17 @@ function Core.SkinMask(Region, Button, Skin, xScale, yScale)
 	-- 		end
 
 	-- 		if not Region.__MSQ_RegionMask then
-	-- 			Region:AddMaskTexture(RegionMask)
+	-- 			AddMaskTexture(Region, RegionMask, Skin.DrawLayer, Skin.DrawLevel)
 	-- 			Region.__MSQ_RegionMask = true
 	-- 		end
 	-- 	elseif Region.__MSQ_RegionMask then
-	-- 		Region:RemoveMaskTexture(RegionMask)
+	-- 		RemoveMaskTexture(Region, RegionMask)
 	-- 		Region.__MSQ_RegionMask = nil
 	-- 	end
+
+	-- -- Button
 	-- else
-	-- 	ButtonMask = ButtonMask or Button:CreateMaskTexture()
+	-- 	ButtonMask = ButtonMask or CreateMaskTexture(Button)
 	-- 	Button.__MSQ_Mask = ButtonMask
 
 	-- 	if type(Skin) == "table" then

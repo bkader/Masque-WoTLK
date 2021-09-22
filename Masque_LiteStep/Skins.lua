@@ -4,7 +4,7 @@
 	suggestions and license information, please visit https://github.com/SFX-WoW/Masque_LiteStep.
 
 	* File....: Skins.lua
-	* Authors.: StormFX, Saynt
+	* Authors.: StormFX, Saynt, Kader
 
 	LiteStep Skins
 
@@ -12,9 +12,7 @@
 -- GLOBALS: GetAddOnMetadata, LibStub
 
 local MSQ = LibStub and LibStub("Masque", true)
-if not MSQ then
-	return
-end
+if not MSQ then return end
 
 local AddOn, Core = ...
 
@@ -51,10 +49,8 @@ MSQ:AddSkin("LiteStep", {
 	Authors = Authors,
 	Websites = Websites,
 	-- Skin
-	-- Mask = nil,
 	Backdrop = {
 		Texture = [[Interface\AddOns\Masque_LiteStep\Textures\Backdrop-Action]],
-		-- TexCoords = {0, 1, 0, 1},
 		Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "BACKGROUND",
@@ -65,11 +61,8 @@ MSQ:AddSkin("LiteStep", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
-		-- UseColor = nil,
-		-- SetAllPoints = nil,
 		Item = {
 			Texture = [[Interface\AddOns\Masque_LiteStep\Textures\Backdrop-Item]],
-			-- TexCoords = {0, 1, 0, 1},
 			Color = {1, 1, 1, 1},
 			BlendMode = "BLEND",
 			DrawLayer = "BACKGROUND",
@@ -80,12 +73,9 @@ MSQ:AddSkin("LiteStep", {
 			RelPoint = "CENTER",
 			OffsetX = 0,
 			OffsetY = 0
-			-- UseColor = nil,
-			-- SetAllPoints = nil,
 		},
 		Pet = {
 			Texture = [[Interface\AddOns\Masque_LiteStep\Textures\Backdrop-Pet]],
-			-- TexCoords = {0, 1, 0, 1},
 			Color = {1, 1, 1, 1},
 			BlendMode = "BLEND",
 			DrawLayer = "BACKGROUND",
@@ -96,8 +86,6 @@ MSQ:AddSkin("LiteStep", {
 			RelPoint = "CENTER",
 			OffsetX = 0,
 			OffsetY = 0
-			-- UseColor = nil,
-			-- SetAllPoints = nil,
 		}
 	},
 	Icon = {
@@ -110,16 +98,11 @@ MSQ:AddSkin("LiteStep", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0
-		-- SetAllPoints = nil,
 	},
 	-- Shadow = Default.Shadow,
 	Normal = {
 		Texture = [[Interface\AddOns\Masque_LiteStep\Textures\Normal]],
-		-- TexCoords = {0, 1, 0, 1},
 		Color = {1, 1, 1, 1},
-		-- EmptyTexture = [[Interface\AddOns\Masque_LiteStep\Textures\Normal]],
-		-- EmptyCoords = {0, 1, 0, 1},
-		-- EmptyColor = {1, 1, 1, 0.5},
 		BlendMode = "BLEND",
 		DrawLayer = "ARTWORK",
 		DrawLevel = 0,
@@ -129,13 +112,9 @@ MSQ:AddSkin("LiteStep", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0
-		-- UseStates = nil,
-		-- SetAllPoints = nil,
 	},
 	-- Disabled = Default.Disabled,
 	Pushed = {
-		-- Texture = [[Interface\Buttons\UI-Quickslot-Depress]],
-		-- TexCoords = {0, 1, 0, 1},
 		Color = {0, 0, 0, 0.6},
 		BlendMode = "BLEND",
 		DrawLayer = "BORDER",
@@ -147,11 +126,8 @@ MSQ:AddSkin("LiteStep", {
 		OffsetX = 0,
 		OffsetY = 0,
 		UseColor = true
-		-- SetAllPoints = nil,
 	},
 	Flash = {
-		-- Texture = [[Interface\Buttons\UI-QuickslotRed]],
-		-- TexCoords = {0, 1, 0, 1},
 		Color = {1, 0, 0, 0.3},
 		BlendMode = "ADD",
 		DrawLayer = "BORDER",
@@ -163,7 +139,6 @@ MSQ:AddSkin("LiteStep", {
 		OffsetX = 0,
 		OffsetY = 0,
 		UseColor = true
-		-- SetAllPoints = nil,
 	},
 	HotKey = {
 		JustifyH = "RIGHT",
@@ -200,7 +175,6 @@ MSQ:AddSkin("LiteStep", {
 	},
 	Checked = {
 		Texture = [[Interface\AddOns\Masque_LiteStep\Textures\Border]],
-		-- TexCoords = {0, 1, 0, 1},
 		Color = {0, 0.7, 0.9, 0.7},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -211,11 +185,9 @@ MSQ:AddSkin("LiteStep", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0
-		-- SetAllPoints = nil,
 	},
 	Border = {
 		Texture = [[Interface\AddOns\Masque_LiteStep\Textures\Border]],
-		-- TexCoords = {0, 1, 0, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
 		DrawLevel = 0,
@@ -225,10 +197,8 @@ MSQ:AddSkin("LiteStep", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
-		-- SetAllPoints = nil,
 		Enchant = {
 			Texture = [[Interface\AddOns\Masque_LiteStep\Textures\Border]],
-			-- TexCoords = {0, 1, 0, 1},
 			Color = {0.6, 0.2, 0.9, 1},
 			BlendMode = "BLEND",
 			DrawLayer = "OVERLAY",
@@ -239,13 +209,11 @@ MSQ:AddSkin("LiteStep", {
 			RelPoint = "CENTER",
 			OffsetX = 0,
 			OffsetY = 0
-			-- SetAllPoints = nil,
 		}
 	},
 	IconBorder = {
 		Texture = [[Interface\AddOns\Masque_LiteStep\Textures\Border]],
 		-- RelicTexture = [[Interface\AddOns\Masque_LiteStep\Textures\Border]],
-		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -256,11 +224,9 @@ MSQ:AddSkin("LiteStep", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0
-		-- SetAllPoints = nil,
 	},
 	SlotHighlight = {
 		Texture = [[Interface\AddOns\Masque_LiteStep\Textures\Border]],
-		-- TexCoords = {0, 1, 0, 1},
 		Color = {0, 0.7, 0.9, 0.7},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -271,11 +237,9 @@ MSQ:AddSkin("LiteStep", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0
-		-- SetAllPoints = nil,
 	},
 	Gloss = {
 		Texture = [[Interface\AddOns\Masque_LiteStep\Textures\Gloss]],
-		-- TexCoords = {0, 1, 0, 1},
 		Color = {1, 1, 1, 0.5},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -286,7 +250,6 @@ MSQ:AddSkin("LiteStep", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0
-		-- SetAllPoints = nil,
 	},
 	IconOverlay = {
 		-- Atlas = "AzeriteIconFrame",
@@ -300,7 +263,6 @@ MSQ:AddSkin("LiteStep", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0
-		-- SetAllPoints = nil,
 	},
 	NewAction = {
 		-- Atlas = "bags-newitem",
@@ -315,7 +277,6 @@ MSQ:AddSkin("LiteStep", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0
-		-- SetAllPoints = nil,
 	},
 	SpellHighlight = {
 		-- Atlas = "bags-newitem",
@@ -330,11 +291,9 @@ MSQ:AddSkin("LiteStep", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0
-		-- SetAllPoints = nil,
 	},
 	AutoCastable = {
 		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
-		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -345,7 +304,6 @@ MSQ:AddSkin("LiteStep", {
 		RelPoint = "CENTER",
 		OffsetX = 0.5,
 		OffsetY = -0.5
-		-- SetAllPoints = nil,
 	},
 	UpgradeIcon = {
 		Atlas = "bags-greenarrow",
@@ -359,12 +317,10 @@ MSQ:AddSkin("LiteStep", {
 		RelPoint = "TOPLEFT",
 		OffsetX = 0,
 		OffsetY = -1
-		-- SetAllPoints = nil,
 	},
 	NewItem = {
 		-- Atlas = "bags-glow-white",
 		Texture = [[Interface\AddOns\Masque_LiteStep\Textures\Glow]],
-		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "ADD",
 		DrawLayer = "OVERLAY",
@@ -375,7 +331,6 @@ MSQ:AddSkin("LiteStep", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0
-		-- SetAllPoints = nil,
 	},
 	QuestBorder = {
 		Border = [[Interface\AddOns\Masque_LiteStep\Textures\Border]],
@@ -390,11 +345,8 @@ MSQ:AddSkin("LiteStep", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0
-		-- SetAllPoints = nil,
 	},
 	SearchOverlay = {
-		-- Texture = nil,
-		-- TexCoords = {0, 1, 0, 1},
 		Color = {0, 0, 0, 0.7},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -406,11 +358,8 @@ MSQ:AddSkin("LiteStep", {
 		OffsetX = 0,
 		OffsetY = 0,
 		UseColor = true
-		-- SetAllPoints = true,
 	},
 	ContextOverlay = {
-		-- Texture = nil,
-		-- TexCoords = {0, 1, 0, 1},
 		Color = {0, 0, 0, 0.7},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -422,7 +371,6 @@ MSQ:AddSkin("LiteStep", {
 		OffsetX = 0,
 		OffsetY = 0,
 		UseColor = true
-		-- SetAllPoints = true,
 	},
 	JunkIcon = {
 		Atlas = "bags-junkcoin",
@@ -436,7 +384,6 @@ MSQ:AddSkin("LiteStep", {
 		RelPoint = "TOPLEFT",
 		OffsetX = 2,
 		OffsetY = -1
-		-- SetAllPoints = nil,
 	},
 	Name = {
 		JustifyH = "CENTER",
@@ -451,7 +398,6 @@ MSQ:AddSkin("LiteStep", {
 	},
 	Highlight = {
 		Texture = [[Interface\AddOns\Masque_LiteStep\Textures\Border]],
-		-- TexCoords = {0, 1, 0, 1},
 		Color = {1, 1, 1, 0.5},
 		BlendMode = "ADD",
 		DrawLayer = "HIGHLIGHT",
@@ -462,8 +408,6 @@ MSQ:AddSkin("LiteStep", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0
-		-- UseColor = nil,
-		-- SetAllPoints = nil,
 	},
 	AutoCastShine = {
 		Width = 34,
@@ -472,10 +416,8 @@ MSQ:AddSkin("LiteStep", {
 		RelPoint = "CENTER",
 		OffsetX = 1,
 		OffsetY = -1
-		-- SetAllPoints = nil,
 	},
 	Cooldown = {
-		-- Texture = nil,
 		Color = {0, 0, 0, 0.7},
 		Width = 30,
 		Height = 30,
@@ -483,7 +425,6 @@ MSQ:AddSkin("LiteStep", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0
-		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
 		Width = 30,
@@ -492,7 +433,6 @@ MSQ:AddSkin("LiteStep", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0
-		-- SetAllPoints = nil,
 	}
 })
 
@@ -507,11 +447,7 @@ MSQ:AddSkin("LiteStep - XLT", {
 	Description = L["An alternate version of LiteStep without borders."],
 	Normal = {
 		Texture = [[Interface\AddOns\Masque_LiteStep\Textures\Lite]],
-		-- TexCoords = {0, 1, 0, 1},
 		Color = {1, 1, 1, 1},
-		-- EmptyTexture = [[Interface\Buttons\UI-Quickslot2]],
-		-- EmptyCoords = {0, 1, 0, 1},
-		-- EmptyColor = {1, 1, 1, 0.5},
 		BlendMode = "BLEND",
 		DrawLayer = "ARTWORK",
 		DrawLevel = 0,
@@ -522,6 +458,5 @@ MSQ:AddSkin("LiteStep - XLT", {
 		OffsetX = 0,
 		OffsetY = 0,
 		UseStates = true
-		-- SetAllPoints = nil,
 	}
 })

@@ -2,7 +2,7 @@
 ## Title: Masque|c0000FF00:|r|cffa335ee Renaitre|r
 ## Version: v7.0.3
 ## Notes: Renaitre's (US Thrall) button skins for Masque.
-## Author: Limb0
+## Author: Limb0 (Kader Backport)
 ## X-Credits: StormFX and JJ Sheets (the creators of Masque and ButtonFacade), Sairen (creator of cyCircled)
 ## Dependencies: Masque
 

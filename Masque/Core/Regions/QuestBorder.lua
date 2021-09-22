@@ -4,7 +4,7 @@
 	suggestions and license information, please visit https://github.com/SFX-WoW/Masque.
 
 	* File...: Core\Regions\QuestBorder.lua
-	* Author.: StormFX
+	* Author.: StormFX, Kader
 
 	Quest Item Border Texture
 
