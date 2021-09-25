@@ -1,0 +1,8 @@
+## Interface: 30300
+## Title: Masque_CleanUI
+## Author: Seharad (Kader Backport)
+## Version: 9.1.0
+## Notes: Masque Skin for the CleanUI look and feel
+## Dependencies: Masque
+
+Masque_CleanUI.lua

@@ -7,7 +7,7 @@ if not MSQ then return end
 -------------------------------------------- Masque: Shadow 1 --------------------------------------------
 ----------------------------------------------------------------------------------------------------------
 MSQ:AddSkin("Masque: Shadow 1", {
-	Author = "Fedorenko R.D. Афем-ЧерныйШрам",
+	Authors = {"Fedorenko R.D. Афем-ЧерныйШрам", "|cfff58cbaKader|r"},
 	Version = "6.2.2",
 	Shape = "Square",
 	Masque_Version = 60200,
@@ -117,7 +117,7 @@ MSQ:AddSkin("Masque: Shadow 1", {
 -------------------------------------------- Masque: Shadow 2 --------------------------------------------
 ----------------------------------------------------------------------------------------------------------
 MSQ:AddSkin("Masque: Shadow 2", {
-	Author = "Fedorenko R.D. Афем-ЧерныйШрам",
+	Authors = {"Fedorenko R.D. Афем-ЧерныйШрам", "|cfff58cbaKader|r"},
 	Version = "6.2.2",
 	Shape = "Square",
 	Masque_Version = 60200,
@@ -223,7 +223,7 @@ MSQ:AddSkin("Masque: Shadow 2", {
 -------------------------------------------- Masque: Shadow 3 --------------------------------------------
 ----------------------------------------------------------------------------------------------------------
 MSQ:AddSkin("Masque: Shadow 3", {
-	Author = "Fedorenko R.D. Афем-ЧерныйШрам",
+	Authors = {"Fedorenko R.D. Афем-ЧерныйШрам", "|cfff58cbaKader|r"},
 	Version = "6.2.2",
 	Shape = "Square",
 	Masque_Version = 60200,
@@ -333,7 +333,7 @@ MSQ:AddSkin("Masque: Shadow 3", {
 -------------------------------------------- Masque: Shadow 4 --------------------------------------------
 ----------------------------------------------------------------------------------------------------------
 MSQ:AddSkin("Masque: Shadow 4", {
-	Author = "Fedorenko R.D. Афем-ЧерныйШрам",
+	Authors = {"Fedorenko R.D. Афем-ЧерныйШрам", "|cfff58cbaKader|r"},
 	Version = "6.2.2",
 	Shape = "Square",
 	Masque_Version = 60200,
@@ -443,7 +443,7 @@ MSQ:AddSkin("Masque: Shadow 4", {
 -------------------------------------------- Masque: Shadow 5 --------------------------------------------
 ----------------------------------------------------------------------------------------------------------
 MSQ:AddSkin("Masque: Shadow 5", {
-	Author = "Fedorenko R.D. Афем-ЧерныйШрам",
+	Authors = {"Fedorenko R.D. Афем-ЧерныйШрам", "|cfff58cbaKader|r"},
 	Version = "6.2.2",
 	Shape = "Square",
 	Masque_Version = 60200,

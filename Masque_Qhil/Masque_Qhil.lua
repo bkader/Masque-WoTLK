@@ -1,10 +1,9 @@
 local MSQ = LibStub("Masque", true)
-if not MSQ then
-return
-end
+if not MSQ then return end
 
 MSQ:AddSkin("Qhil", {
-	Author = "qhil",
+	Authors = {"Qhil", "|cfff58cbaKader|r"},
+	Websites = {"https://github.com/bkader/Masque-WoTLK"},
 	Version = "1.3.0",
 	Shape = "Square",
 	Description = "A pretty simple and clean skin. It comes with a 1 pixel border, no shadows and a themed backdrop.",

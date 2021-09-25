@@ -2,12 +2,13 @@ local MSQ = LibStub("Masque", true)
 if not MSQ then return end
 
 MSQ:AddSkin("Raeli - Square Edge", {
-	Author = "Raeli",
+	Authors = {"Raeli", "|cfff58cbaKader|r"},
 	Version = string.match(GetAddOnMetadata("Masque_Raeli", "Version"), "%d+"),
 	Masque_Version = 90001,
 	Shape = "Square",
 	Description = "A simple sqaure pixel border skin.",
 	Websites = {
+		"https://github.com/bkader/Masque-WoTLK",
 		"https://github.com/Caedilla/Masque_Raeli",
 		"https://www.curseforge.com/wow/addons/masque_raeli",
 		"https://discord.gg/99QZ6sd"

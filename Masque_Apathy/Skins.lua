@@ -1,18 +1,16 @@
 --[[
 
-This file is part of 'Masque: Apathy', an add-on for World of Warcraft. For bug reports,
-suggestions and license information, please visit https://github.com/SFX-WoW/Masque_Apathy.
+	This file is part of 'Masque: Apathy', an add-on for World of Warcraft. For bug reports,
+	suggestions and license information, please visit https://github.com/SFX-WoW/Masque_Apathy.
 
-* File...: Skins.lua
-* Author.: StormFX
+	* File...: Skins.lua
+	* Author.: StormFX, Kader
 
-Apathy Skin
+	Apathy Skin
 
 ]]
 local MSQ = LibStub and LibStub("Masque", true)
-if not MSQ then
-return
-end
+if not MSQ then return end
 
 local AddOn, Core = ...
 
@@ -26,11 +24,12 @@ local L = Core.Locale
 -- Skin Info
 local Version = GetAddOnMetadata(AddOn, "Version")
 local Websites = {
-"https://github.com/SFX-WoW/Masque_Apathy",
-"https://www.curseforge.com/wow/addons/masque-apathy",
-"https://addons.wago.io/addons/masque-apathy",
-"https://www.wowace.com/projects/masque-apathy",
-"https://www.wowinterface.com/downloads/info8870"
+	"https://github.com/bkader/Masque-WoTLK",
+	"https://github.com/SFX-WoW/Masque_Apathy",
+	"https://www.curseforge.com/wow/addons/masque-apathy",
+	"https://addons.wago.io/addons/masque-apathy",
+	"https://www.wowace.com/projects/masque-apathy",
+	"https://www.wowinterface.com/downloads/info8870"
 }
 
 ----------------------------------------
@@ -43,7 +42,7 @@ MSQ:AddSkin("Apathy", {
 	-- Info
 	Description = L["A square, minimalistic skin with thin borders."],
 	Version = Version,
-	Author = "StormFX",
+	Authors = {"StormFX", "|cfff58cbaKader|r"},
 	Websites = Websites,
 	-- Skin
 	Backdrop = {

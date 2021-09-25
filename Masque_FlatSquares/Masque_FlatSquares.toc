@@ -1,0 +1,8 @@
+## Interface: 30300
+## Title: Masque: |cffffffffFlatSquares|r
+## Version: 1.0.8
+## Author: ccfreak (Kader Backport)
+## Notes: FlatSquares skin for Masque.
+## Dependencies: Masque
+
+FlatSquares.lua

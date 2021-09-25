@@ -4,7 +4,7 @@
 	suggestions and license information, please visit https://github.com/SFX-WoW/Masque_LiteStep.
 
 	* File...: Locales.lua
-	* Author.: StormFX
+	* Author.: StormFX, Kader
 
 ]]
 

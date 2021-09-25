@@ -1,12 +1,12 @@
 --[[
 
-This file is part of 'Masque: Entropy', an add-on for World of Warcraft. For bug reports,
-suggestions and license information, please visit https://github.com/SFX-WoW/Masque_Entropy.
+	This file is part of 'Masque: Entropy', an add-on for World of Warcraft. For bug reports,
+	suggestions and license information, please visit https://github.com/SFX-WoW/Masque_Entropy.
 
-* File...: Skins.lua
-* Author.: StormFX
+	* File...: Skins.lua
+	* Author.: StormFX, Kader
 
-Entropy Skins
+	Entropy Skins
 
 ]]
 -- GLOBALS: GetAddOnMetadata, LibStub
@@ -28,11 +28,12 @@ local L = Core.Locale
 -- Skin Info
 local Version = GetAddOnMetadata(AddOn, "Version")
 local Websites = {
-"https://github.com/SFX-WoW/Masque_Entropy",
-"https://www.curseforge.com/wow/addons/masque-entropy",
-"https://addons.wago.io/addons/masque-entropy",
-"https://www.wowace.com/projects/masque-entropy",
-"https://www.wowinterface.com/downloads/info8873"
+	"https://github.com/bkader/Masque-WoTLK",
+	"https://github.com/SFX-WoW/Masque_Entropy",
+	"https://www.curseforge.com/wow/addons/masque-entropy",
+	"https://addons.wago.io/addons/masque-entropy",
+	"https://www.wowace.com/projects/masque-entropy",
+	"https://www.wowinterface.com/downloads/info8873"
 }
 
 -- Description
@@ -51,7 +52,7 @@ MSQ:AddSkin("Entropy - Silver", {
 	-- Info
 	Description = SKIN_DESC:format("Silver"),
 	Version = Version,
-	Author = "StormFX",
+	Authors = {"StormFX", "|cfff58cbaKader|r"},
 	Websites = Websites,
 	-- Skin
 	Backdrop = {
