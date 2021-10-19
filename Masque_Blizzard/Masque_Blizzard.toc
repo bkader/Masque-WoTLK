@@ -1,0 +1,8 @@
+## Interface: 30300
+## Version: 1.1.0
+## Title: Masque_Blizzard
+## Author: Shamahan
+## SavedVariables: MasqueSkin
+## RequiredDeps: Masque
+
+Masque_Blizzard.lua
