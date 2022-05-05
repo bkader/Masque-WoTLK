@@ -9,14 +9,13 @@
 ## Notes-zhTW: 一個基於按鈕的外觀美化插件。
 
 ## Version: 9.1.0
-## Author: StormFX, JJSheets
+## Author: StormFX, JJSheets (Kader Backport)
 ## SavedVariables: MasqueDB
 ## OptionalDeps: Ace3, AceGUI-3.0_SFX-Widgets, LibDBIcon-1.0, LibDualSpec-1.0
 
-## X-Website: https://github.com/SFX-WoW/Masque
+## X-Website: https://github.com/bkader/Masque-WoTLK
 ## X-Category: Interface Enhancements
 ## X-Curse-Project-ID: 13592
-## X-Wago-ID: kRNLgpGo
 ## X-WoWI-ID: 12097
 
 # Libraries

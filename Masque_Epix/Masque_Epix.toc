@@ -1,0 +1,8 @@
+## Interface: 30300
+## Title: Masque: |cff99CCFFEpix|r
+## Version: 2.1
+## Author: Epix
+## Notes: Epix's skin for Masque.
+## Dependencies: Masque
+
+Masque_Epix.lua
