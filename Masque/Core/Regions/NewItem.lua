@@ -84,14 +84,18 @@ function Core.SkinNewItem(Region, Button, Skin, xScale, yScale)
 		Region:SetVertexColor(GetColor(Colors[Atlas]))
 
 		if not Region.__MSQ_Hooked then
-			hooksecurefunc(Region, "SetAtlas", Hook_SetAtlas)
+			if Region.SetAtlas then
+				hooksecurefunc(Region, "SetAtlas", Hook_SetAtlas)
+			end
 			Region.__MSQ_Hooked = true
 		end
 	else
 		Region.__MSQ_Skin = nil
 		Region.__MSQ_Atlas = nil
 
-		Region:SetAtlas(Atlas)
+		if Region.SetAtlas then
+			Region:SetAtlas(Atlas)
+		end
 		Region:SetVertexColor(1, 1, 1, 1)
 	end
 

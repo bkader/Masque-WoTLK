@@ -74,7 +74,9 @@ function Core.SkinTexture(Layer, Region, Button, Skin, Color, xScale, yScale)
 			Texture = Default.Texture
 
 			if Atlas then
-				Region:SetAtlas(Atlas)
+				if Region.SetAtlas then
+					Region:SetAtlas(Atlas)
+				end
 
 				if SetColor then
 					Region:SetVertexColor(GetColor(Default.Color))
